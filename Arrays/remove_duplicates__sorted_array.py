@@ -23,3 +23,7 @@ def removeDuplicates(nums):
             nums[j] = nums[i]  # Set the unique element at index j
 
     return j + 1
+
+nums = [0,0,1,1,1,2,2,3,3,4]
+ans = removeDuplicates(nums)
+print(ans)  # Output: 5
