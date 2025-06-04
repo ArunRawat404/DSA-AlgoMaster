@@ -19,4 +19,4 @@ def singleNumber(nums):
 
 nums = [4,1,2,1,2]
 ans = singleNumber(nums)
-print(ans)
+print(ans)  # Output: 4

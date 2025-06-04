@@ -38,4 +38,4 @@ def hammingWeight(n):
 
 n = 2147483645
 ans = hammingWeight(n)
-print(ans)
+print(ans)  # Output: 30
