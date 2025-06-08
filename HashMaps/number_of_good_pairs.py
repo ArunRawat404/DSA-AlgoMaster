@@ -7,7 +7,7 @@ def numIdenticalPairs(nums):
         For each new occurrence of an element, update the number of good pairs because each new occurrence of an element can form a new good pair with all previous instances of that element.
 
     Time Complexity: O(n)
-    Space Complexity: O(n),
+    Space Complexity: O(n)
     """
 
     num_freq = {}
